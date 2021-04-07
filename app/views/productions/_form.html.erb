@@ -1,0 +1,32 @@
+<%= form_with(model: production) do |form| %>
+  <% if production.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(production.errors.count, "error") %> prohibited this production from being saved:</h2>
+
+      <ul>
+        <% production.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :creation_date %>
+    <%= form.date_select :creation_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rate %>
+    <%= form.number_field :rate %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
