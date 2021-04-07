@@ -21,6 +21,7 @@ Things that you need in order to run this app locally:
 6. rails server
 7. Go to http://127.0.0.1:3000 if you want to see the index page (there is no functionality in there)
 
+
 ## To make operations to the Api
 For doing any CRUD operation you need to sign up first.
 ### Sign Up
@@ -74,6 +75,9 @@ For all of the operations you must introduce the "user" object with the "email" 
 | Delete     | DELETE       | Character  | /characters/:id.json  |
 | Delete     | DELETE       | Production | /productions/:id.json |
 
+## For running this app on the web
+
+Go to https://disney-api.herokuapp.com/. All the endpoints are the same as locally. For example: To get all the characters (you must be signed up) just make a GET request to https://disney-api.herokuapp.com/characters.json.
 
 ## Data models
 
