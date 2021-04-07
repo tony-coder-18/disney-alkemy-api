@@ -57,7 +57,7 @@ You can change the name and other parameters to any you want.
 The characteristics of the characters and productions are in the "Data models" section.
 
 ### Read, update and delete a Character or a production (movie or series)
-For updating and deleting operations the JSON object that you have to send is very similar to the one for the "Read" operation, just have in mind that for Productions (movies and series) there are different attributes (see Data models section).
+For updating and deleting operations, the JSON object that you have to send is very similar to the one for the "Read" operation, just have in mind that for Productions (movies and series) there are different attributes (see Data models section).
 
 For all of the operations you must introduce the "user" object with the "email" and "password" that you set-up in your Sign Up operation.
 
@@ -88,5 +88,5 @@ For all of the operations you must introduce the "user" object with the "email" 
 * Creation_date, date
 * Rate, Integer
 
-Developed by Bill Llach Bruges.
+Developed by Bill Llach Bruges (tony-coder-18)
 S.D.G.
