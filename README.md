@@ -14,7 +14,7 @@ Things that you need in order to run this app locally:
 
 ### Steps
 1. git clone https://github.com/tony-coder-18/disney-alkemy-api.git
-2. cd disneyalkemyapi/
+2. cd disney-alkemy-api/
 3. bundle install
 4. rake db:create
 5. rails db:migrate
