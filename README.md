@@ -75,10 +75,6 @@ For all of the operations you must introduce the "user" object with the "email" 
 | Delete     | DELETE       | Character  | /characters/:id.json  |
 | Delete     | DELETE       | Production | /productions/:id.json |
 
-## For running this app on the web
-
-Go to https://disney-api.herokuapp.com/. All the endpoints are the same as locally. For example: To get all the characters (you must be signed up) just make a GET request to https://disney-api.herokuapp.com/characters.json.
-
 ## Data models
 
 ### Characters
